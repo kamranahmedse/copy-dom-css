@@ -1,0 +1,13 @@
+{
+  "name": "copy-dom-css",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "esbuild src/content.ts src/background.ts src/popup.ts --bundle --outdir=dist --target=chrome100",
+    "watch": "esbuild src/content.ts src/background.ts src/popup.ts --bundle --outdir=dist --target=chrome100 --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.0",
+    "typescript": "^5.4.0"
+  }
+}
