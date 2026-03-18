@@ -2,28 +2,16 @@
 
 Point at any element on a webpage, click, and get its complete HTML with all styles inlined on your clipboard. Paste it into any HTML file and it renders exactly like the original, fonts and all.
 
-![copy-dom-css](https://github.com/user-attachments/assets/placeholder.png)
+## Usage
 
-## Install
-
-```bash
-git clone https://github.com/kamrify/copy-dom-css.git
-cd copy-dom-css
-npm install && npm run build
-```
-
-Then load it into Chrome:
-
-1. Go to `chrome://extensions`
-2. Turn on **Developer mode** (top right)
-3. Click **Load unpacked** and select the project folder
+Install it from the [Chrome Webstore](https://dub.sh/copy-dom-css)
 
 ## Usage
 
-1. Click the extension icon in the toolbar
-2. Hover over any element to highlight it
-3. Click to copy. Done. It's on your clipboard.
-4. Press **Escape** to cancel
+- Click the extension icon in the toolbar
+- Hover over any element to highlight it
+- Click to copy. Done. It's on your clipboard.
+- Press **Escape** to cancel
 
 ## What gets captured
 
